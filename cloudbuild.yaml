@@ -5,11 +5,7 @@ steps:
     args:
       - '-c'
       - 'pwd'
-#printing the date
-  - name: 'gcr.io/cloud-building/gcloud'
-    entrypoint: 'bash'
-      - '-c'
-      - 'date'
+
       
 options:
     substitution_option: 'ALLOW_LOOSE'
