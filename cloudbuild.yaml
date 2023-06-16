@@ -1,6 +1,6 @@
 steps:
 #printing the present working directory
-  - name: 'gcr.io/cloud-building/gcloud'
+  - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
     args:
       - '-c'
